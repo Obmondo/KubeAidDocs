@@ -102,7 +102,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/social-card.png',
+      image: 'https://obmondo.github.io/KubeAidDocs/img/brand/logo_dark_2x.png',
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
@@ -112,7 +112,7 @@ const config = {
         title: '',
         logo: {
           alt: 'KubeAid Logo',
-          src: 'img/brand/logo_dark_2x.png',
+          src: 'https://obmondo.github.io/KubeAidDocs/img/brand/logo_dark_2x.png',
         },
         style: 'dark',
         items: [
@@ -153,12 +153,12 @@ const config = {
       footer: {
         style: 'dark',
         copyright: `<div class="footer-brand">
-  <a href="/" class="footer-brand-link">
-    <img src="/img/brand/logo_dark_2x.png" alt="KubeAid" class="footer-brand-logo" />
+  <a href="/KubeAidDocs/" class="footer-brand-link">
+    <img src="/KubeAidDocs/img/brand/logo_dark_2x.png" alt="KubeAid" class="footer-brand-logo" />
   </a>
   <span class="footer-brand-sep">by</span>
   <a href="https://obmondo.com" target="_blank" rel="noopener noreferrer" class="footer-brand-link">
-    <img src="/img/brand/obmondo_logo_dark.png" alt="Obmondo" class="footer-brand-logo" />
+    <img src="/KubeAidDocs/img/brand/obmondo_logo_dark.png" alt="Obmondo" class="footer-brand-logo" />
   </a>
 </div>
 <div class="footer-social-icons">
