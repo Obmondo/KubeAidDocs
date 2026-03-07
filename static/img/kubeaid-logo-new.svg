@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <!-- Icon -->
+  <g transform="translate(20, 20)">
+    <!-- Connecting paths (Brand Blue #031473) -->
+    <path d="M 40,30 Q 70,30 70,60 T 130,60" fill="none" stroke="#031473" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 40,90 Q 70,90 70,60 T 130,60" fill="none" stroke="#031473" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Nodes (Brand Orange #FC5D39) -->
+    <circle cx="20" cy="20" r="16" fill="#FC5D39" />
+    <circle cx="20" cy="100" r="16" fill="#FC5D39" />
+    <circle cx="80" cy="60" r="16" fill="#FC5D39" />
+    
+    <!-- End Node (Brand Blue) -->
+    <circle cx="40" cy="60" r="16" fill="#031473" />
+  </g>
+
+  <!-- Text (Red Hat Text font, Brand Blue) -->
+  <text x="160" y="100" font-family="'Red Hat Text', 'Inter', sans-serif" font-weight="800" font-size="75" fill="#031473" letter-spacing="-2">kubeaid</text>
+</svg>
