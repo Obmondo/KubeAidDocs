@@ -12,11 +12,12 @@ const config = {
     v4: true,
   },
 
-  url: 'https://kubeaid.io',
-  baseUrl: '/',
+  url: 'https://obmondo.github.io',
+  baseUrl: '/KubeAidDocs/',
 
   organizationName: 'Obmondo',
-  projectName: 'KubeAid',
+  projectName: 'KubeAidDocs',
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
 
