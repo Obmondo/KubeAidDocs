@@ -28,7 +28,7 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Update submodule to latest main
+      - name: Update submodule to latest target branch
         run: |
           git submodule update --remote --merge
           echo "Submodule updated to:"
